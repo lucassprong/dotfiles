@@ -18,3 +18,5 @@ let g:vimtex_compiler_method = 'latexmk'
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+" Test, dit is een test
