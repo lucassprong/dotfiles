@@ -19,5 +19,6 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
-" Testing
-" AGain
+" Spelling
+set spell
+set spelllang=nl

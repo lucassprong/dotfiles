@@ -9,3 +9,6 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias ls
 alias ls='ls -G1'
+
+# Neofetch
+neofetch
