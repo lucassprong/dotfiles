@@ -21,4 +21,13 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " Spelling
 set spell
-set spelllang=nl
+set spelllang=nl,en_gb
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
+" File explorer settings
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+
+" search options
+set hlsearch
+set incsearch

@@ -1,5 +1,6 @@
-# Add homebrew to path
-eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+# Add things to path
+eval "$(/opt/homebrew/bin/brew shellenv zsh)" # Homebrew
+export PATH="$HOME/bin:$PATH" # bin dir
 
 # Activate zsh-highlighting
 source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -12,3 +13,6 @@ alias ls='ls -G1'
 
 # Neofetch
 neofetch
+
+# Prompt
+PROMPT='%1~ %# '
