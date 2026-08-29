@@ -14,5 +14,5 @@ alias ls='ls -G1'
 # Prompt
 PROMPT='%1~ %# '
 
-# Neofetch
-neofetch
+# fastfetch
+fastfetch
